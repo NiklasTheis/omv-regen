@@ -1133,20 +1133,20 @@ MenuPrincipal() {
                 txt 5 "Desactivar actualizaciones de omv-regen.        " \
                       "Disable omv-regen updates.                      "
             fi
-            txt T_Backup           "              BACKUP     → Configurar/Crear un backup del sistema actual.  " \
+            txt T_Backup           "              BACKUP     → Configurar/Crear un backup del sistema actual." \
                                    "              BACKUP     → Configure/Create a backup of the current system."
-            txt T_Regenera         "            REGENERA     → Regenerar desde un backup en el sistema actual. " \
-                                   "            REGENERA     → Regenerate from a backup on the current system. "
+            txt T_Regenera         "            REGENERA     → Regenerar desde un backup en el sistema actual." \
+                                   "               REGEN     → Regenerate from a backup on the current system."
             txt T_Actualizar       "          Actualizar     → ${txt[5]}" \
                                    "              Update     → ${txt[5]}"
-            txt T_Resetear         "            Resetear     → Resetear ajustes.                               " \
-                                   "               Reset     → Reset settings.                                 "
-            txt T_Idioma           "              Idioma     → Cambiar idioma a Inglés.                        " \
-                                   "            Languaje     → Change language to Spanish.                     "
-            txt T_Ayuda            "               Ayuda     → Ayuda general.                                  " \
-                                   "                Help     → General help.                                   "
-            txt T_Salir            "               Salir     → Salir.                                          " \
-                                   "                Exit     → Exit.                                           "
+            txt T_Resetear         "            Resetear     → Resetear ajustes." \
+                                   "               Reset     → Reset settings."
+            txt T_Idioma           "              Idioma     → Cambiar idioma a Inglés." \
+                                   "            Language     → Change language to Spanish."
+            txt T_Ayuda            "               Ayuda     → Ayuda general." \
+                                   "                Help     → General help."
+            txt T_Salir            "               Salir     → Salir." \
+                                   "                Exit     → Exit."
             clear
             VIA=$(dialog --backtitle "omv-regen ${ORVersion}" \
                         --ok-label "${txt[B_Continuar]}" \
